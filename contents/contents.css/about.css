@@ -1,0 +1,94 @@
+/* Styles for the About page */
+
+/* Center-align the content */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #F8F8FF;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    color: #F0FFfF;
+    margin-bottom: 20px;
+}
+
+/* Stylish container for the "About Me" section */
+.about-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+/* Add a subtle animation */
+.about-container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Keyframes for the animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Add a stylish border to headings */
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+/* Style links within the content */
+a {
+    color: #0077b5;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #00548f;
+}
+
+/* Add a subtle shadow to images */
+img {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+/* Customize the background color of the container */
+.about-container {
+    background-color: #f9f9f9;
+}
+
+/* Add a border to the container */
+.about-container {
+    border: 1px solid #ddd;
+}
+
+/* Add more styles as needed for your About page */
+/* Set background image for the About Me page */
+body {
+    background-image: url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1840&q=80'); /* Adjust the path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

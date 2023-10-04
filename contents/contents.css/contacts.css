@@ -1,0 +1,98 @@
+/* Styles for the Contacts page */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define fonts and colors */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    /* Set the relative background image */
+    background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'); /* Adjust the path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.bluh {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    max-width: 800px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+}
+
+/* Stylish container for contact information */
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+/* Add a subtle animation */
+.contact-info {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Keyframes for the animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Style contact headings */
+.contact-info h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 20px; /* Add margin below headings */
+}
+
+/* Style contact links */
+.contact-info a {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 0; /* Add margin between social media icons */
+}
+
+.contact-info a:hover {
+    color: #00548f;
+}
